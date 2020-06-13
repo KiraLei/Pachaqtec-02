@@ -34,7 +34,7 @@ h2{
 }
 /*ABOUT ME*/
 
-.section2{
+.about-me{
     background-color: rgb(104, 170, 224);
 }
 .h2-about-me{
@@ -68,7 +68,7 @@ a{
     margin-left: 50px;
 }
 /*MY SKILLS*/
-.section3{
+.skills{
     background-color: rgb(106, 90, 247);
 }
 
@@ -113,7 +113,7 @@ h3{
     color: green;
 }
 
-.section4{
+.portfolio{
     background-color: yellow ;
     font-weight: bolder;
 }
@@ -134,36 +134,58 @@ figure{
     color: rgb(9, 201, 9);
     font-weight: bolder;
 }
-.section5{
+.clients{
     background-color: grey;
 }
 .row-clients{
     display: flex;
+    align-items: center;
     align-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 60px;
 }
 /*Contact*/
-.section6{
+.contact{
     background-color: #00b894;
 }
 
 .form{
-    margin: auto;
-    padding-left: 200px;
-    margin-bottom: 30px;
+    display: flex;
+    margin-bottom: 30px; 
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 input{
-    width: 300px;
+    width: 350px;
     height: 60px;
+}
+.h2-contact{
+    color: rgb(248, 16, 27);
+    font-weight: bolder;
 }
 
 textarea{
-    width: 590px;
+    width: 100%;
     height: 300px;
-    margin-left: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+button{
+    font-size: 24px;
+    padding:  25px 50px 25px 50px;
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; 
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
