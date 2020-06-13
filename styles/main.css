@@ -149,6 +149,24 @@ figure{
     background-color: #00b894;
 }
 
+.form{
+    margin: auto;
+    padding-left: 200px;
+    margin-bottom: 30px;
+}
+input{
+    width: 300px;
+    height: 60px;
+}
+
+textarea{
+    width: 590px;
+    height: 300px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+
 
 
 
