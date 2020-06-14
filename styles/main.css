@@ -1,17 +1,23 @@
+main{
+    background-image: url("../images/blue2.jpg");
+	background-attachment: fixed;
+}
 
 h1{
-    text-align: center;
-    color: white;
+    /*text-align: center;*/
+    padding-left: 50px;
+    color: rgb(20, 121, 216);
     font-size: 45px;
     padding-top: 5px;
     font-weight: bold;
-}
+}   
 .section {
     display: flex;
     justify-content: center;  
 }
 .image{
-    background-image: url("../images/profile.png");
+    background-image: url("../images/kira3.jpg");
+    background-repeat: no-repeat;
     height: 525px;
 }
 .div-section {
@@ -23,9 +29,13 @@ h1{
     color: white;
     width: 250px;
     background-color: rgba(114, 153, 254, 0.5);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     padding: 20px;
-    margin-left: 60px;
-    margin-top: 280px;
+    margin-left: 70px;
+    margin-top: 80px;
 }
 h2{
     font-size: 40px;
@@ -35,6 +45,7 @@ h2{
 /*ABOUT ME*/
 
 .about-me{
+    /*border-top-right-radius: 160px;*/
     background-color: rgb(104, 170, 224);
 }
 .h2-about-me{
