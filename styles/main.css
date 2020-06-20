@@ -18,7 +18,8 @@ section {
   justify-content: center;
 }
 .div-section {
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
 }
 h2 {
   padding: 40px;
@@ -110,17 +111,17 @@ h3 {
 }
 
 .firts-box {
-  height: 20px;
+  height: 45%;
   width: 400px;
   background: #fff;
   border-radius: 10px;
 }
 
 .second-box {
-  height: 20px;
-  width: 200px;
+  height: 100%;
+  width: 50%;
   background: rgb(22, 197, 209);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .aling-skills {
