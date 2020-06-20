@@ -1,10 +1,10 @@
+/*Globals*/
 main{
     background-image: url("../images/lo.jpg");
 	background-attachment: fixed;
 }
 
 h1{
-    /*text-align: center;*/
     padding-left: 50px;
     color: rgb(20, 121, 216);
     font-size: 45px;
@@ -16,22 +16,28 @@ section {
     justify-content: center;  
     
 }
-.image{
-    
+.div-section {
+    width: 960px;
+}
+h2{
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+}
+/*Profile 1st section*/
+
+.image-profile{
     width: 100%;
     max-width: 800px;
     margin-bottom: 2%;
     background-image: url("../images/kira2.jpg");
     background-repeat: no-repeat;
     height: 525px;
+    border-radius: 10%;
 }
-.width-imagen{
+.width-imagen-profile{
     display: flex;
     justify-content: center; 
-
-}
-.div-section {
-    width: 960px;
 }
 .hi-name {
     text-align: center;
@@ -43,19 +49,15 @@ section {
     margin-left: 70px;
     margin-top: 80px;
 }
-h2{
-    font-size: 40px;
-    padding: 40px;
-    text-align: center;
-}
+
 /*ABOUT ME*/
 
 .about-me{
-    /*border-top-right-radius: 160px;*/
-    background-color: rgb(104, 170, 224);
+    background-color: rgba(104, 170, 224, 0.753);
+    border-radius: 20% 20% 0 0%;
 }
 .h2-about-me{
-    color: rgb(12, 46, 238);
+    color: rgb(230, 192, 241);
     font-weight: bolder;
 
 }
@@ -86,12 +88,12 @@ a{
 }
 /*MY SKILLS*/
 .skills{
-    background-color: rgb(106, 90, 247);
+    background-color: rgb(106, 90, 247, 0.4);
+    border: rgb(48, 66, 221) solid;
 }
 
 .size-skills{
     margin-bottom: 80px;
-
 }
 h3{
     font-size: 20px;
@@ -103,14 +105,14 @@ h3{
     font-weight: bolder;
 }
 
-.firts {
+.firts-box {
     background: #fff;
     height: 20px;
     width: 400px;
     border-radius: 10px;
 }
 
-.second {
+.second-box {
     background: rgb(22, 197, 209);
     height: 20px;
     width: 200px;
@@ -127,11 +129,11 @@ h3{
 
 /*Portafolio*/
 .h2-portfolio{
-    color: green;
+    color: rgb(240, 236, 11);
 }
 
 .portfolio{
-    background-color: yellow ;
+    background-color: rgba(247, 44, 18, 0.8) ;
     font-weight: bolder;
 }
 .row{
@@ -164,7 +166,7 @@ figure{
 }
 /*Contact*/
 .contact{
-    background-color: #00b894;
+    background-color: rgb(22, 197, 209, 0.3);
 }
 
 .form{
