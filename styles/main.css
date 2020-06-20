@@ -1,5 +1,5 @@
 main{
-    background-image: url("../images/blue2.jpg");
+    background-image: url("../images/lo.jpg");
 	background-attachment: fixed;
 }
 
@@ -11,28 +11,34 @@ h1{
     padding-top: 5px;
     font-weight: bold;
 }   
-.section {
+section {
     display: flex;
     justify-content: center;  
+    
 }
 .image{
-    background-image: url("../images/kira3.jpg");
+    
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 2%;
+    background-image: url("../images/kira2.jpg");
     background-repeat: no-repeat;
     height: 525px;
 }
+.width-imagen{
+    display: flex;
+    justify-content: center; 
+
+}
 .div-section {
     width: 960px;
-    
 }
 .hi-name {
     text-align: center;
     color: white;
     width: 250px;
     background-color: rgba(114, 153, 254, 0.5);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px;
     padding: 20px;
     margin-left: 70px;
     margin-top: 80px;
@@ -62,7 +68,7 @@ h2{
     text-align: justify ;
     margin-bottom: 40px;
 }
-.aling2{
+.div-paragraph{
     margin-bottom: 40px;
 }
 
