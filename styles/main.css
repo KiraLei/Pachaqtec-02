@@ -20,6 +20,8 @@ section {
 .div-section {
   width: 100%;
   max-width: 960px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 h2 {
   padding: 40px;
